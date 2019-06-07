@@ -16,7 +16,7 @@ training_indices, validation_indices = training_indices, testing_indices = train
 	stratify= df_class, train_size=0.75, test_size=0.25)
 
 tpot = TPOTClassifier(generations=5, verbosity=2)
-tpot.fit(tele.drop('Class', axis=1).loc[training_indices].values,
+tpot.fit(df1.drop('Class', axis=1).loc[training_indices].values,
 	df1.loc[training_indicss, 'Class'].values)
 
 tpot.score(df1.drop('Class', axis=1).loc[validation_indices].values,
