@@ -17,4 +17,4 @@ crossing over parents to create new population.
 Adding better traits, genes which were not inherited from parents
 
 
-![GAN](https://github.com/Sarth-Patil/Genetic_Programming/blob/master/GA.jpg)
+![GAN](https://github.com/Sarth-Patil/Genetic_Programming/blob/master/GP.jpg)
