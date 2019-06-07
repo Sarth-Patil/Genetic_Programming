@@ -2,18 +2,18 @@
 
 Components of GA  
 
-##Population  
+## Population  
 Set of all possible solutions,a population has Chromosomes which consists of genes (genes are encoded in a chromosome).  
 Chromosomes - solutions.  
 Genes - parameters
 
-##Selection  
+## Selection  
 Population of solutions associated with fitness score by applying fitness function.  
 
-##Crossover  
+## Crossover  
 crossing over parents to create new population.
 
-##Mutation  
+## Mutation  
 Adding better traits, genes which were not inherited from parents
 
 
